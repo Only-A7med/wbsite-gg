@@ -197,3 +197,20 @@ footer {
 .container {
     position: ;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* This ensures the main content takes up the available space */
+}
+
+footer {
+    background-color: #333; /* Example background color */
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
